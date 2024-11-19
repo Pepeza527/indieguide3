@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Festivais</title>
+    <!-- Incluindo Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #0F1E28 !important;
+            color: #C8BA97 !important;
+            font-size: 1.1rem !important; /* Aumenta a fonte geral */
+        }
+
+        .custom-header {
+            background-color: #1c1c1c !important;
+            padding: 10px !important;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .navbar-dark .navbar-brand {
+            color: #C8BA97 !important;
+            font-weight: bold !important;
+            font-size: 1.7rem !important; /* Aumenta a fonte do título */
+        }
+
+        .navbar-dark .nav-link {
+            color: #C8BA97 !important;
+            margin-right: 15px !important;
+            font-size: 1.2rem !important; /* Aumenta a fonte dos links de navegação */
+        }
+
+        .navbar-dark .nav-link:hover {
+            color: #ffffff !important;
+        }
+
+        .poster-img {
+            width: 300px;
+            height: auto;
+            margin-right: 10px;
+            border-radius: 8px;
+        }
+
+        .table {
+            color: #C8BA97 !important;
+            background-color: #1c1c1c !important;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .table th, .table td {
+            background-color: #1c1c1c !important;
+            color: #C8BA97 !important;
+            border: none !important;
+            border-radius: 8px;
+            text-align: left;
+            font-size: 1.15rem !important; /* Aumenta a fonte da tabela */
+        }
+
+        .table th {
+            color: #C8BA97 !important;
+        }
+
+        .table tr {
+            border-bottom: 1px solid #C8BA97;
+        }
+
+        .table tr:last-child {
+            border-bottom: none;
+        }
+
+        .table tr:hover {
+            background-color: #C8BA97;
+            color: #000;
+        }
+
+        /* Efeito de hover nas células que contém os festivais */
+        .table td:hover {
+            background-color: rgba(200, 186, 151, 0.5); /* Cor de fundo com opacidade ao passar o mouse */
+            color: #000;
+            cursor: pointer; /* Muda o cursor para indicar interatividade */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/">INDIE GUIDE AWARDS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="festivais.html">Festivais</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Destaques da Temporada</a></li>
+                <li class="nav-item"><a class="nav-link" href="/critica/">Crítica</a></li>
+                <li class="nav-item"><a class="nav-link" href="/usuario/">Usuário</a></li>
+                <li class="nav-item"><a class="nav-link" href="/admin/">Administração</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="mb-4">Festivais</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">Festival</th>
+                    <th scope="col">Data</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <img src="https://asianfilmfestivals.com/wp-content/uploads/2023/02/venezia2023call.png" alt="Imagem do Festival de Veneza" class="poster-img">
+                        <span class="festival-name">Festival de Veneza</span>
+                    </td>
+                    <td>29 de agosto - 8 de setembro</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://www.cinemavittoriabra.it/wp-content/uploads/2024/04/Screenshot-2024-04-17-162328.png" alt="Imagem do Festival de Cannes" class="poster-img">
+                        <span class="festival-name">Festival Internacional du Film de Cannes</span>
+                    </td>
+                    <td>14 de maio - 25 de maio</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://goldenglobes.com/wp-content/uploads/2024/08/tiff-toronto-international-film-festival-2024.webp" alt="Imagem do Festival de Toronto" class="poster-img">
+                        <span class="festival-name">Toronto International Film Festival</span>
+                    </td>
+                    <td>5 de setembro - 15 de setembro</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://images.ctfassets.net/3m6gg2lxde82/202n0qGLmQJfPHwqxHvNXs/b556dd55f31bcaa7df858f078d71eef9/sundance-20248.png?w=2048&h=1137&fit=fill&f=faces&q=90&fm=webp" alt="Imagem do Festival de Sundance" class="poster-img">
+                        <span class="festival-name">Sundance Film Festival</span>
+                    </td>
+                    <td>18 de janeiro - 28 de janeiro</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://pop.proddigital.com.br/wp-content/uploads/sites/8/2023/08/01-29.jpg" alt="Imagem do Festival de Gramado" class="poster-img">
+                        <span class="festival-name">Festival de Gramado</span>
+                    </td>
+                    <td>11 de agosto - 19 de agosto</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Incluindo jQuery e Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
