@@ -1,0 +1,132 @@
+body {
+    background-color: #0F1E28 !important;
+    color: #C8BA97 !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.custom-header {
+    background-color: #1c1c1c !important;
+    padding: 10px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: #C8BA97 !important;
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+}
+
+.navbar-dark .nav-link {
+    color: #C8BA97 !important;
+    margin-right: 15px !important;
+    font-size: 1.1rem !important;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ffffff !important;
+}
+
+.search-bar {
+    border: none !important;
+    border-radius: 5px !important;
+    padding: 5px !important;
+    width: 150px !important;
+}
+
+.search-bar::placeholder {
+    color: #ccc !important;
+}
+
+.navbar-dark .fas {
+    font-size: 1.8rem !important;
+    color: #C8BA97 !important;
+}
+
+.navbar-dark .fas:hover {
+    color: #ffffff !important;
+}
+
+.navbar-dark {
+    background-color: #1c1c1c !important;
+}
+
+.table {
+    color: #C8BA97 !important;
+    background-color: #1c1c1c !important;
+    border-radius: 8px !important;
+    overflow: hidden !important;
+}
+
+.table th, .table td {
+    background-color: #1c1c1c !important;
+    color: #C8BA97 !important;
+    border: none !important;
+    border-radius: 8px !important;
+    text-align: left !important;
+}
+
+.table th {
+    color: #C8BA97 !important;
+}
+
+.table tr {
+    border-bottom: 1px solid #C8BA97 !important;
+}
+
+.table tr:last-child {
+    border-bottom: none !important;
+}
+
+.table tr:hover {
+    background-color: #C8BA97 !important;
+    color: #000 !important;
+}
+
+.festival-title {
+    margin-top: 5px !important;
+    font-weight: bold !important;
+}
+
+.festival-synopsis {
+    margin-top: 5px !important;
+}
+
+.poster-img {
+    max-width: 100px !important;
+    height: auto !important;
+}
+
+.festival-entry {
+    border-bottom: 2px solid #C8BA97 !important;
+    padding-bottom: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+/* Ajustes para a tabela de críticas */
+.table td, .table th {
+    padding: 15px !important;
+}
+
+.table td {
+    vertical-align: middle !important;
+}
+
+.table tr:hover {
+    background-color: #C8BA97 !important;
+    color: #000 !important;
+}
+
+.film-review {
+    font-style: italic !important;
+    color: #a1a1a1 !important;
+    margin-top: 5px !important;
+}
+
+.table thead {
+    background-color: #1c1c1c !important;
+}
+
+.table td, .table th {
+    text-align: center !important;
+}
+

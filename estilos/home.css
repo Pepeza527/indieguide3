@@ -1,0 +1,276 @@
+        .custom-header {
+            background-color: #1c1c1c; 
+        }
+
+        .navbar-dark .navbar-brand {
+            color: #C8BA97;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        .navbar-dark .nav-link {
+            color: #C8BA97; 
+            margin-right: 15px;
+            font-size: 1.1rem;
+        }
+
+        .navbar-dark .nav-link:hover {
+            color: #ffffff;
+        }
+
+        .search-bar {
+            border: none;
+            border-radius: 5px;
+            padding: 5px;
+            width: 150px;
+        }
+
+        .search-bar::placeholder {
+            color: #ccc;
+        }
+
+        .navbar-dark .fas {
+            font-size: 1.8rem;
+            color: #C8BA97; 
+        }
+
+        .navbar-dark .fas:hover {
+            color: #ffffff;
+        }
+
+      
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #0E1928;
+            font-family: Arial, sans-serif;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container-filmes {
+            width: 80%;
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .main-image {
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+        .main-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .movie-title {
+            position: absolute;
+            right: -50px;
+            top: 50%;
+            transform: rotate(90deg) translateY(-50%);
+            font-size: 1.2rem;
+            letter-spacing: 2px;
+            color: #FFFFFF;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            margin-right: 20px;
+        }
+
+        .movie {
+            flex-basis: 18%;
+            text-align: center;
+            margin: 0 10px; 
+        }
+
+        .movie img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease; 
+        }
+
+        .movie img:hover {
+            transform: scale(1.1); 
+        }
+
+        .movie p {
+            font-size: 1rem;
+            color: white;
+            letter-spacing: 1px;
+        }
+        
+        .jumbotron {
+            background-color: #1c1c1c;
+            color: #C8BA97;
+        }
+
+    
+        @media (max-width: 768px) {
+            .gallery {
+                flex-direction: column;
+            }
+
+            .movie {
+                margin-bottom: 20px;
+            }
+        }
+.gallery {
+            display: flex !important;
+            flex-wrap: nowrap !important;
+            overflow-x: auto;
+        }
+    
+        .festivais {
+            flex: 0 0 auto;
+            margin-right: 20px !important;
+            text-align: center !important;
+        }
+    
+        .festivais img {
+            width: 490px !important;
+            height: 236px !important;
+            object-fit: cover !important;
+            border-radius: 8px !important;
+            transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+        }
+    
+        .festivais img:hover {
+            transform: scale(1.05) !important;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;
+        }
+    
+        .festivais p {
+            color: #F6DFA1 !important;
+        }
+    
+        .banner-filme {
+            width: 100%;
+            height: 400px;
+            background-color: #1c1c1c;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px;
+            color: #fff;
+        }
+
+        .banner-filme img {
+            max-height: 350px;
+            border-radius: 10px;
+        }
+
+        .info-filme {
+            max-width: 70%;
+            text-align: left;
+            margin-left: 20px;
+        }
+
+        .info-filme h2 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+
+        .info-filme p {
+            font-size: 1.2rem;
+            color: #C8BA97;
+        }
+
+        .banner-carousel {
+            margin: 30px 0;
+        }
+
+       
+        @media (max-width: 768px) {
+            .info-filme {
+                max-width: 100%;
+                margin-left: 0;
+            }
+
+            .banner-filme {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .banner-filme img {
+                max-width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+            .movie {
+                width: 48% !important;
+            }
+            
+
+            .container-filmes {
+                flex-direction: column;
+                overflow-x: hidden;
+            }
+        
+    
+        @media (max-width: 576px) {
+            .movie {
+                width: 100% !important;
+            }
+        }
+
+        h2{
+            color:#C8BA97;
+        }
+    
+        .movie-poster {
+            height: 500px !important;
+            width: 350px !important;
+            object-fit: cover !important;
+        }
+    
+        .card-title {
+            font-weight: bold;
+            color: #F6DFA1 !important;
+        }
+    
+        .container {
+            max-width: 1565px;
+            margin: 0 auto;
+        }
+    
+        .carousel-item {
+            margin-bottom: 20px;
+        }
+    
+        .movie-list {
+            display: flex;
+            align-items: center;
+            margin: 30px 30px;
+            border-bottom: 1px solid #C8BA97;
+            padding-bottom: 3%;
+            color: #F6DFA1 !important;
+        }
+    
+        .movie-name {
+            margin-left: 20px;
+            cursor: pointer;
+            transition: color 0.3s ease;
+            color: #F6DFA1 !important;
+        }
+    
+        .jumbotron h1 {
+            font-size: 3.5rem !important;
+            font-weight: bold !important;
+            color: #F6DFA1 !important;
+        }
+    
+ 
+    

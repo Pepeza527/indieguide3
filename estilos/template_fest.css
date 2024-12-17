@@ -1,0 +1,176 @@
+body {
+    background-color: #0F1E28;
+}
+
+.custom-header {
+    background-color: #1c1c1c !important;
+    padding: 10px !important;
+}
+
+.navbar {
+    background-color: #1C1C1C !important;
+    height: 80px !important;
+}
+
+.navbar-dark .navbar-brand {
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 1.5rem !important;
+}
+
+.navbar-dark .nav-link {
+    color: white !important;
+    margin-right: 15px !important;
+    font-size: 1.1rem !important;
+}
+
+.navbar-dark .nav-link:hover {
+    color: #ffffff !important;
+}
+
+.vinheta {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 85vh;
+}
+
+.vinheta img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+.vinheta::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at center, transparent, transparent 70%, rgba(0, 0, 0, 0.8));
+    pointer-events: none;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.centered-text:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.centered-text h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-weight: bold;
+}
+
+.poster-container {
+    margin: 40px 60px 20px 60px;
+    color: white;
+}
+
+.poster-container h2, .poster-container h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.poster-container p {
+    font-size: 1.1rem;
+}
+
+.team-casting-container {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 60px;
+}
+
+.team-casting-container .group {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.team-casting-container .card {
+    background-color: #C8BA97;
+    border: none;
+    color: white;
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: center;
+    font-size: 0.9rem;
+    height: auto;
+    min-width: 110px;
+}
+
+.team-casting-container .card:hover {
+    background-color: #A68F7A;
+    transform: scale(1.05);
+}
+
+.team-casting-container .card h4 {
+    margin-bottom: 0.5rem;
+}
+
+.section-title {
+    color: white;
+    margin-right: 20px;
+    font-weight: bold;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+.comments-section {
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.comments-section h4 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.comments-section textarea {
+    width: 100%;
+    height: 80px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comments-section button {
+    background-color: #1c1c1c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.comments-section button:hover {
+    background-color: #C8BA97;
+    color: #1c1c1c;
+}
